@@ -32,7 +32,6 @@ if st.button("Check Transaction"):
     mse = np.mean(np.square(input_scaled - reconstruction))
 
     # Result
-    st.markdown(---)
     st.write(f"Reconstruction Error: {mse:.6f}")
     if mse  THRESHOLD
         st.error( "This transaction is likely FRAUDULENT!")
