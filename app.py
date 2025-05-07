@@ -22,7 +22,7 @@ for i in range(1, 29):
 amount = st.number_input("Amount", format="%.2f", value=0.0)
 inputs.append(amount)
 
-if st.button(Check Transaction)
+if st.button(Check Transaction):
     # Prepare and scale input
     input_array = np.array(inputs).reshape(1, -1)
     input_scaled = scaler.transform(input_array)
