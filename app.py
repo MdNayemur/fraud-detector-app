@@ -33,7 +33,7 @@ if st.button("Check Transaction"):
 
     # Result
     st.write(f"Reconstruction Error: {mse:.6f}")
-    if mse  THRESHOLD
+    mse > THRESHOLD:
         st.error( "This transaction is likely FRAUDULENT!")
     else
         st.success("This transaction appears to be NORMAL.")
