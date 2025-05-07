@@ -4,7 +4,7 @@ import tensorflow as tf
 import joblib
 
 # Load model and scaler
-model = tf.keras.models.load_model(autoencoder_model.h5)
+model = tf.keras.models.load_model('autoencoder_model.h5')
 scaler = joblib.load(scaler.pkl)
 
 # Set threshold (same as used in Colab)
