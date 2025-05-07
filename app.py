@@ -15,7 +15,7 @@ st.markdown("Enter transaction details below to check if it's fraudulent.")
 
 # Input fields
 inputs = []
-for i in range(1, 29)
+for i in range(1, 29):
     val = st.number_input(f"V{i}", format="%.6f", value=0.0)
     inputs.append(val)
 
